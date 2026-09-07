@@ -1,0 +1,8 @@
+packages:
+  - apps/*
+  - packages/*
+
+# 允许执行构建脚本的原生依赖
+onlyBuiltDependencies:
+  - better-sqlite3
+  - esbuild

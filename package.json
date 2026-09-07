@@ -1,0 +1,17 @@
+{
+  "name": "powercode",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.34.5",
+  "scripts": {
+    "build": "pnpm -r build",
+    "start": "node apps/server/dist/index.js",
+    "dev:server": "pnpm --filter @powercode/server dev",
+    "dev:web": "pnpm --filter @powercode/web dev",
+    "db:generate": "pnpm -C apps/server db:generate"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+data/
+.env
+*.log
+.DS_Store
+.Drive
+
+# AI 开发内部规划（含会话 ID 等内部信息）
+.zcode/
